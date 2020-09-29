@@ -64,6 +64,7 @@ float getMean(float data[], uint8_t size)
 	for (i = 0; i < size; i++)
 		mean = mean + data[i];
 	mean = mean / size;
+	return mean;
 }
 
 float getVariance(float data[], uint8_t size)
