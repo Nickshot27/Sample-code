@@ -11,7 +11,7 @@ ADCRead::~ADCRead()
 {
 }
 
-uint16_t ADCRead::readRaw(uint8_t resolution)
+uint16_t ADCRead::readRaw()
 {
 	return analogRead(_pin);
 }
